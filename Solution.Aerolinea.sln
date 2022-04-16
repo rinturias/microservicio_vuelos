@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32120.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aerolinea.Vuelos.Domain", "Aerolinea.Domain\Aerolinea.Vuelos.Domain.csproj", "{906A605B-FD7E-44ED-817B-433136F6EF8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aerolinea.Vuelos.Domain", "Aerolinea.Domain\Aerolinea.Vuelos.Domain.csproj", "{906A605B-FD7E-44ED-817B-433136F6EF8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aerolinea.Vuelos.Infrastructure", "Aerolinea.Infrastructure\Aerolinea.Vuelos.Infrastructure.csproj", "{4F4C76EF-5576-4A8A-833F-EBC0E9F78983}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aerolinea.Vuelos.Infrastructure", "Aerolinea.Infrastructure\Aerolinea.Vuelos.Infrastructure.csproj", "{4F4C76EF-5576-4A8A-833F-EBC0E9F78983}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharedkernel", "Aerolinea.Utils\Sharedkernel.csproj", "{464C105A-48C6-4045-BC4E-EA9BD3E328EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharedkernel", "Aerolinea.Utils\Sharedkernel.csproj", "{464C105A-48C6-4045-BC4E-EA9BD3E328EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aerolinea.Vuelos.ConsoleUI", "Aerolinea.Vuelos.ConsoleUI\Aerolinea.Vuelos.ConsoleUI.csproj", "{DCE3827E-B7E7-4113-86D6-80E43DF0B026}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{464C105A-48C6-4045-BC4E-EA9BD3E328EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{464C105A-48C6-4045-BC4E-EA9BD3E328EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{464C105A-48C6-4045-BC4E-EA9BD3E328EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCE3827E-B7E7-4113-86D6-80E43DF0B026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE3827E-B7E7-4113-86D6-80E43DF0B026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE3827E-B7E7-4113-86D6-80E43DF0B026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE3827E-B7E7-4113-86D6-80E43DF0B026}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
