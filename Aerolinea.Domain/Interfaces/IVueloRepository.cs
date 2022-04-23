@@ -12,6 +12,6 @@ namespace AAerolinea.Vuelos.Domain.Interfaces
     {
         Task UpdateAsync(Vuelo obj);
 
-        Task RemoveAsync(Vuelo obj);
+        //Task RemoveAsync(Vuelo obj);
     }
 }
